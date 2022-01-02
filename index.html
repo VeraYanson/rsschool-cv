@@ -4,25 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>rsschool-cv</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="container">
-    <header>
+    <table>
+        <tbody></tbody>
+        <td>
+            <header>
         <img src="foto.jpg" alt="Foto">
         <h1>Vera Yanson</h1>
+        <h2>Front-end Developer</h2>
         <nav> 
             <ul>
                 <li><a href="#contacts">Contacts</a></li>
                 <li><a href="#about">About Me</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#code">Code Example</a></li>
-                <li><a href="#experience">Experience</a></li>
+                <li><a href="#experience">Projects</a></li>
                 <li><a href="#education">Education</a></li>
                 <li><a href="#english">English</a></li>
             </ul>
         </nav>
     </header>
+
     <main>
         <section>
             <h2 id="contacts">Contacts</h2>
@@ -33,10 +38,13 @@
                 <li>GitHub: VeraYanson</li>
             </ul>
         </section>
+    </td>
+    <td>
         <section>
             <h2 id="about">About Me</h2>
             <p>Highly organized, goal-oriented</p>
         </section>
+    
         <section>
             <h2 id="skills">Skills</h2>
             <ul>
@@ -52,12 +60,11 @@
                 function multiply(x,y) {
                 return x * y;
             }
-                let result = multiply(1, 2);
-                alert( result );
             </script>
         </section>
         <section>
-            <h2 id="#experience">Experience</h2>
+            <h2 id="experience">Projects</h2>
+            <a href="https://VeraYanson.github.io/rsschool-cv/">https://VeraYanson.github.io/rsschool-cv/</a>
         </section>
         <section>
             <h2 id="education">Education</h2>
@@ -76,10 +83,22 @@
             <p>A2</p>
         </section>
     </main>
+</td>
+    </table>
+    
+    
     <footer id="footer">
-            <p>2021</p>
-            <a href="https://VeraYanson.github.io/rsschool-cv/"><img src="github.png" alt="git" sizes="32x32"></a>
-            <a href="https://rs.school/"><img src="rolling_scopes.png" alt="rsshool" sizes="125x45"></a>
+        <table>
+            <tbody>
+                <tr>
+            
+            <td><p>2021</p></td>
+            <td><a href="https://VeraYanson.github.io/rsschool-cv/"><img src="github.png" alt="git" sizes="12x12"></a></td>
+            <td><a href="https://rs.school/"><img src="rolling_scopes.png" alt="rsshool" sizes="125x45"></a></td>
+        </tr>
+        </tbody>
+        </table>
+            
          
     </footer>
 </body>
