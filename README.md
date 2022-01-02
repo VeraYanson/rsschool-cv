@@ -1,1 +1,1 @@
-https://VeraYanson.github.io/rsschool-cv/index.html
+https://VeraYanson.github.io/rsschool-cv/index
